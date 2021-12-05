@@ -1,0 +1,12 @@
+name: Dummy check
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run dummy check
+      run: |
+        echo "Success"
